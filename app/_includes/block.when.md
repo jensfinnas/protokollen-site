@@ -1,0 +1,1 @@
+Databasen kommer att publiceras våren 2015. Planerad lansering är Föreningen grävande journalisters konferens Gräv15 i Jönköping den 20 – 21 mars.

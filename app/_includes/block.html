@@ -1,0 +1,15 @@
+<div class="block">
+	<section class="mt centered">
+		<div class="icon">
+			<div class="wrapper">
+				<span class="octicon">§</span>
+			</div>
+		</div>
+		<div class="content">
+			<h3 class="title">{{include.title}}</h3>
+			<div class="description">
+				{% capture content %}{% include {{include.block}} %}{% endcapture %}
+				{{ content | markdownify }}
+		</div>
+	</section>
+</div>
