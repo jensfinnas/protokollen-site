@@ -291,7 +291,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'dist',
+          remote: 'git@github.com:jensfinnas/protokollen-site.git',
           branch: 'gh-pages',
           commit: true,
           push: true
