@@ -104,10 +104,30 @@ $color-red     :    #E74C3C;
 $color-orange   :   #F39C12;
 $icon-size      :   50px;
 $border         :   1px solid $color-orange;
+$base-font      :   13px;
+
+
+body {
+    font-size: $base-font;
+}
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
 
 h1, h2, h3, h4 {
     font-weight: 100;
 }
+h1 { font-size: 3.8em; }
+h2 { font-size: 2em; }
+h3 { font-size: 2.2em; }
+// TYPOGRAPHY: DESKTOP
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: $base-font * 1.15;
+    }
+}
+
 
 .jumbotron {
     background-color: $color-blue;
@@ -195,6 +215,8 @@ h1, h2, h3, h4 {
         }
     }
 }
+
+
 
 
 
