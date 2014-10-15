@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 
     <!-- build:css({app,.tmp}) css/main.css -->
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/_bower_components/octicons/octicons/octicons.css">
+    <link rel="stylesheet" href="fonts/octicon/octicons.css">
     <link rel="stylesheet" href="/_bower_components/bootstrap/dist/css/bootstrap.min.css">    
     <link rel="stylesheet" href="/_bower_components/flat-ui/dist/css/flat-ui.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
@@ -23,7 +23,9 @@
     <!-- build:js(app) js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <script src="/_bower_components/jquery/jquery.min.js"></script>
     <script src="/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/hyphenator.js"></script>
     <!-- endbuild -->
 
   </head>
@@ -35,9 +37,7 @@
 
 
     {% include scripts.html %}
-    <!--
     {% include googleanalytics.html %}
-    -->
 
   </body>
 </html>

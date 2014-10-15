@@ -2,12 +2,12 @@
 	<section class="mt centered">
 		<div class="icon">
 			<div class="wrapper">
-				<span class="octicon">§</span>
+				<span class="paragraph"><a id="{{include.slug}}">§</a></span>
 			</div>
 		</div>
 		<div class="content">
 			<h3 class="title">{{include.title}}</h3>
-			<div class="description">
+			<div class="description hyphenate">
 				{% capture content %}{% include {{include.block}} %}{% endcapture %}
 				{{ content | markdownify }}
 		</div>
