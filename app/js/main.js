@@ -13,15 +13,15 @@ var toggleLogo = function() {
 		// Show logo
 		$logo
 		.addClass("fadeInLeft")
-		.removeClass('fadeOutLeft hidden')
+		.removeClass('fadeOutLeft hidden');
 	} else {
 		// Hide logo
 		if ($logo.hasClass('fadeInLeft')) {
 			$logo.addClass("fadeOutLeft")
-				.removeClass("fadeInLeft hidden");			
+				.removeClass("fadeInLeft hidden");
 		}
 
-	}  
+	}
 
 };
 $(document).ready(function () {
@@ -30,4 +30,4 @@ $(document).ready(function () {
 		logoBreakPoint = $('.jumbotron h1').offset().top;
 		document.onscroll = toggleLogo;
 	}
-})
+});
