@@ -8,6 +8,7 @@
     "octicons": "*",
     "bootstrap": "~3.2.0",
     "flat-ui": "~2.2.1",
-    "animate.css": "~3.2.0"
+    "animate.css": "~3.2.0",
+    "icomoon": "~0.0.1"
   }
 }

@@ -4,10 +4,10 @@ Databasen kommer att publiceras våren 2015. Den lanseras på Föreningen gräva
 
 <table class="checklist table">
 <tr>
-<td><span class="fui-check fui-icon"></span></td>
+<td><div class="box"><span class="fui-check fui-icon"></span></div></td>
 <td>Finansiering</td>
 </tr>
-<tr><td><span class="fui-cross fui-icon"></td><td>Samla in protokoll</td></tr>
-<tr><td><span class="fui-cross fui-icon"></td><td>Databearbetning och databasbygge</td></tr>
-<tr><td><span class="fui-cross fui-icon"></td><td>Publicering av databasen</td></tr>
+<tr><td><div class="box"></div></td><td>Samla in protokoll</td></tr>
+<tr><td><div class="box"></div></td><td>Databearbetning och databasbygge</td></tr>
+<tr><td><div class="box"></div></td><td>Publicering av databasen</td></tr>
 </table>
